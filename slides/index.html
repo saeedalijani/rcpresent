@@ -1,0 +1,471 @@
+<!doctype html>
+
+
+
+<html lang="fa">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <style>
+h6 {size:20px;}
+h8 {color:black;}
+</style>
+    <title>روبوکاپ | شبیه‌سازی فوتبال</title>
+    
+
+    <link href="css/style.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p><bdi><span class="bdi">متاسفانه مرورگر شما پشتیبانی نمی‌شود</span></bdi></p>
+</div>
+
+<!-- اینتروداکشن ارائه
+1-->
+<div id="impress">
+
+    <div id="title" class="step" data-x="3000" data-y="1200" data-scale="9">
+        <h1>روبوکاپ <br> شبیه‌سازی فوتبال</h1>
+        <br>
+	<h4> درس هوش مصنوعی دانشگاه پیام نور تهران شمال</h4> 
+	<h4>استاد سپهری</h4>
+	<h4> تهیه‌کننده: سعید علیجانی</h4>
+        <hr>
+        <h4>۱۳۹۴/۱/۲۳</h4>
+        <h5>wiki.lfkf.org</h5>
+	<h5><span>saeedalijani.blog.ir</span></h5>
+
+
+<!--        فهرست ارائه  
+2-->
+    </div>
+    <div class="step slide" data-x="8000" data-y="-2500">
+<p><right><strong>فهرست مطالب:</strong></right></p>
+<hr>
+<br>
+<b><p><sup>*</sup>روبوکاپ چیست ؟ </p></b>
+<br>
+<br>
+<b><p><sup>*</sup>شبیه‌سازی دوبعدی فوتبال </b></p>
+<br>
+<br>
+<b><p><sup>*</sup>شبیه‌سازی سه‌بعدی فوتبال </b></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+        	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="مجوز کریتیو کامنز" style="border-width:0;" src="images/88x31.png" /></a>
+<br>
+
+    </div>
+<!-- 
+طرح درس
+جلسات اولیه
+
+3
+-->
+    <div class="step slide" data-x="6000" data-y="-2500">
+<p><right><strong>روبوکاپ چیست؟</strong></right></p>
+<hr>
+<br>
+<p text-align:justify;>
+روبوکاپ (RoboCup) عنوان مسابقاتی بین‌المللی در زمینه دانش رباتیک و هوش مصنوعی است.<br><br>
+سالیانه توسط فدراسیون بین‌المللی RoboCup برگزار می‌شود.<br><br>
+نام RoboCup برگرفته از کلمات «Robot Soccer» (مسابقه فوتبال) و «World Cup» (جام جهانی) است.<br><br>
+</p>
+<br>
+
+
+    </div>
+<!--    
+طرح درس
+باقی جلسات
+    
+4    
+    -->
+    
+<div class="step slide" data-x="4000" data-y="-2500">
+<p><right><strong>هدف مسابقات روبوکاپ</strong></right></p>
+<hr>
+<br><br>
+<p>
+<b>هدف نمادین:</b>  پیروزی تیم فوتبال ربات‌های انسان‌نما در سال ۲۰۵۰ در رقابت با برترین تیم فوتبال انسان‌ها
+</p>
+<br>
+<br>		
+<p> 
+<b> هدف اصلی:</b> توسعهٔ دانش رباتیک و هوش مصنوعی
+
+</p>
+
+ </div>
+    
+    
+
+     <div class="step slide" data-x="2000" data-y="-2500">
+<p><right><strong>لیگ‌های روبوکاپ:</strong></right></p>
+<hr>
+<br>
+<p><sup>*</sup>لیگ‌های فوتبال </p>
+<br> <br>
+<p><sup>*</sup>لیگ‌های امداد و نجات</p>
+<br>
+<br>		
+<p><sup>*</sup>ربات‌های خانگی</p>
+<br>
+<br>
+<p><sup>*</sup>لیگ‌های دانش‌آموزی</p>
+<br>
+
+<br>
+ </div>
+    
+    
+    
+    
+<!--   چنتا نکته ۲
+۶-->
+     <div class="step slide" data-x="0" data-y="-2500">
+<p><right><strong>رقابت‌های فوتبال</strong></right></p>
+<hr>
+<br>
+<p><sup>*</sup>رقابت فوتبال ربات‌های واقعی</p>
+<br>
+<br>	
+<p><sup>*</sup><b>لیگ‌های شبیه‌سازی</b></p>
+<br>
+<p>&nbsp;	&nbsp;	&nbsp;	&nbsp;	<sup>*</sup>شبیه‌سازی دوبعدی فوتبال</p><br>
+<p>&nbsp;	&nbsp;	&nbsp;	&nbsp;	<sup>*</sup>شبیه‌سازی سه‌بعدی فوتبال</p>
+
+<br>
+<br>
+ </div>
+<!--    
+الک چیست
+۷
+-->
+    
+    
+     <div class="step slide" data-x="-2000" data-y="-2500">
+<p><right><strong>شبیه‌سازی دوبعدی فوتبال</strong></right></p>
+<hr>
+<br>
+<p><sup>*</sup>شبیه‌سازی ربات‌ها به وسیلهٔ  برنامه‌های کامپیوتری</p>
+<br>
+<br>		
+<p><sup>*</sup>هر ربات برای خودش تصمیم می‌گیرد</p>
+<br>
+<br>
+<p><sup>*</sup>محیط شبیه‌سازی داری دو بعد x و y است</p>
+<br>
+<br>
+<p><sup>*</sup>هدف: یاگیری و هوشمندی در بازی فوتبال</p>
+<br>
+<br>
+<br>
+<br>
+ </div>
+    
+    
+    
+     <div class="step slide" data-x="-2000" data-y="-1000">
+     
+<p><right><strong>برنامهٔ شبیه‌سازی</strong></right></p>
+<hr>
+<br>
+<p><b>برنامهٔ «rcssserver»</b></p>
+<br>
+<p><sup>*</sup>نرم‌افزار آزاد</p>
+<br>
+<p><sup>*</sup>نوشته‌شده به زبان سی‌پلاس‌پلاس</p>
+<br>
+<p><sup>*</sup>تحت شبکه</p>
+<br>
+<p><sup>*</sup>برنامهٔ شبیه‌ساز: سرور</p>
+<br>
+<p><sup>*</sup>برنامهٔ ربات‌ها: کلاینت</p>
+<br>
+<br>
+ </div>
+
+<div class="step slide" data-x="-2000" data-y="500">
+     
+<p><right><strong>تصویری از شبیه‌سازی دوبعدی فوتبال</strong></right></p>
+<hr>
+<br>
+<img src="images/Screenshot-rcssmonitor 15.1.1.png" style="width:683px;height:384px">
+ </div>
+    <div class="step slide" data-x="-2000" data-y="2000">
+<p><right><strong>شبییه‌سازی سه‌بعدی فوتبال</strong></right></p>
+<hr>
+<br>
+<p><sup>*</sup>شبیه‌سازی ربات‌ها به وسیلهٔ  برنامه‌های کامپیوتری</p>
+<br>
+<br>
+<p><sup>*</sup>شبیه‌سازی گرافیکی و سه‌بعدی به وسیلهٔ openGL</p>
+<br>
+<br>		
+<p><sup>*</sup>هر ربات برای خودش تصمیم می‌گیرد</p>
+<br>
+<br>
+<p><sup>*</sup>محیط شبیه‌سازی داری سه بعد x و y و z است</p>
+<br>
+<br>
+<p><sup>*</sup>هدف: یاگیری و هوشمندی در بازی فوتبال</p>
+<br>
+<br>
+<br>
+<br>
+</div>
+    
+    
+    
+    
+    <div class="step slide" data-x="-2000" data-y="3500">
+    <p><right><strong>ربات شبیه‌سازی‌شده</strong></right></p>
+<hr>
+<br>
+<p>ربات نائو</p>
+<br>		
+<img src="images/598px-NAO-Robot.jpg" style="width:470px;">
+    </div>
+    
+    
+    
+     <div class="step slide" data-x="-2000" data-y="5000">
+<p><right><strong>برنامهٔ شبیه‌سازی </strong></right></p>
+<hr>
+<br>
+<p><b>برنامهٔ «rcssserver3d»</b></p>
+<br>
+<p><sup>*</sup>استفاده از برنامه‌ای به نام SimSpark</p>
+<br>		
+<p><sup>*</sup>تحت شبکه</p>
+<br>
+<p><sup>*</sup>برنامهٔ شبیه‌ساز: سرور</p>
+<br>
+<p><sup>*</sup>برنامهٔ ربات‌ها: کلاینت</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+    </div>
+    
+    
+    
+    
+    <div class="step slide" data-x="0" data-y="5000">
+<p><right><strong>برنامهٔ SimSpark </strong></right></p>
+<hr>
+<br>
+<p><sup>*</sup>نرم‌افزار آزاد</p>
+<br>
+<p><sup>*</sup>شبیه‌سازی چندعامله</p>
+<br>
+<p><sup>*</sup>شبیه‌سازی فیزیکی برای هوش مصنوعی و رباتیک</p>
+<br>
+<p><sup>*</sup>‌نوشته‌شده به زبان‌های سی‌پلاس‌پلاس و روبی</p>
+<br>
+<br>
+
+
+    </div>
+    
+    
+    
+    
+    <div class="step slide" data-x="2000" data-y="5000">
+<p><right><strong>تصاویری از برنامهٔ SimSpark </strong></right></p>
+<hr>
+<br>
+
+<p>
+<img src="images/screenshot3.png" style="width:600px;height:400px"/>
+</p>
+
+<br>
+<br>
+
+
+    </div>
+    
+    
+    
+    <div class="step slide" data-x="4000" data-y="5000">
+<p><right><strong>تصویری از محیط شبیه‌سازی سه‌بعدی فوتبال </strong></right></p>
+<hr>
+<br>
+<p>
+<img src="images/Screenshot-SimSpark.png" style="width:700px;"/>
+</p>
+<p>
+<br>
+<br>
+
+    </div>
+    
+    
+    <div class="step slide" data-x="6000" data-y="5000">
+<p><right><strong> تصویری از محیط شبیه‌سازی سه‌بعدی فوتبال</strong></right></p>
+<hr>
+<br>
+
+<p>
+<img src="images/800px-RoboCup-3D-Soccer-Field.jpg" style="width:800px;"/>
+</p>
+<br>
+<br>
+</div>
+    
+    
+    
+     <div class="step slide" data-x="8000" data-y="5000">
+<p><right><strong> ویژگی‌‌ها</strong></right></p>
+<hr>
+<br>
+<p><sup>*</sup>شبیه‌سازی محیط‌های واقعی  (رعایت قوانین فیزیکی)</p>
+<br>
+<p><sup>*</sup>شبیه‌سازی ربات‌های واقعی</p>
+<br>
+<p><sup>*</sup>اجرای سریع‌تر و راحت‌تر ایده‌ها</p>
+<br>
+<p><sup>*</sup>‌کمک به پیشرفت دانش هوش مصنوعی و رباتیک</p>
+<br>
+<p><sup>*</sup>‌تفریح!!!!</p>
+<br>
+<br>
+<br>
+
+    </div>
+    
+    
+    
+    
+     <div class="step slide" data-x="8000" data-y="3500">
+<p><right><strong>منابع</strong></right></p>
+<hr>
+<br>
+<p>
+<a href="https://fa.wikipedia.org/wiki/%D8%B1%D9%88%D8%A8%D9%88%DA%A9%D8%A7%D9%BE" >روبوکاپ، ویکیپدیای فارسی</a>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/RoboCup">RoboCup, Wikipedia</a>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/RoboCup_2D_Soccer_Simulation_League" >RoboCup 2D Soccer Simulation League, Wikipedia</a>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/RoboCup_3D_Soccer_Simulation_League" > RoboCup 3D Soccer Simulation League, Wikipedia</a>
+<br>
+<br>
+<a href="http://simspark.sourceforge.net/" >SimSpark, sourceforge</a>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/SimSpark" >SimSpark, Wikipedia</a>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Nao_%28robot%29" >Nao (robot), Wikipedia</a>
+<br>
+<br>
+</p>
+<br>
+<br>
+    </div>
+    
+    
+    
+    
+    
+    <div class="step slide" data-x="8000" data-y="2000">
+<p><right><strong>سوال</strong></right></p>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="images/dialog_question.png">
+<img src="images/dialog_question.png">
+<img src="images/dialog_question.png">
+<img src="images/dialog_question.png">
+<img src="images/dialog_question.png">
+
+
+
+<br>
+    </div>
+    
+  <div class="step slide" data-x="8000" data-y="500">
+            <p><right><strong>تشکر</strong></right></p>
+<hr>
+<br>
+<br>
+<br>
+<p><b>با سپاس از شما </b></p>
+<br>
+<br>
+<p><b>تماس  با من:</b></p>
+<br>
+<h5> روی جیمیل saeed.alijani68</h5>
+<br>
+<h5><a href="http://wiki.lfkf.org">wiki.lfkf.org</a> </h5>
+<br>
+<h5><a href="http://saeedalijani.blog.ir">saeedalijani.blog.ir </a></h5>
+<br>
+    </div>
+    
+    
+    
+    <div class="step slide" data-x="8000" data-y="-1000">
+            <p><right><strong>بخش پایانی</strong></right></p>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>								
+<p><b>اجرای برنامهٔ شبیه‌ساز فوتبال</b></p>
+<br>
+<p>
+<b></b>
+</p>
+</div>
+    
+    
+    
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="15">
+    </div>
+
+</div>
+
+
+<div class="hint">
+    <p><bdi><span class="bdi">از کلید‌های چپ و راست استفاده کنید</span></bdi></p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p><bdi><span class="bdi">إضغط على اليمين أو اليسار للتنقل</span></bdi></p>";
+}
+</script>
+
+
+<script src="js/impress_ar.js"></script>
+<script>impress().init();</script>
+
+
+
+</body>
+</html>
